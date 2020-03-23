@@ -4,16 +4,16 @@ export default function Footer() {
   return (
     <footer>
       <div className="container">
-        <p>&copy; Gatsby Starter New Age 2019. All Rights Reserved.</p>
+        <p>&copy; Сервис SMM продвижения 2020.</p>
         <ul className="list-inline">
           <li className="list-inline-item">
-            <a href="/#">Privacy</a>
+            <a href="http://fb79510o.bget.ru/services">Цены</a>
           </li>
           <li className="list-inline-item">
-            <a href="/#">Terms</a>
+            <a href="http://fb79510o.bget.ru/terms">Правила и условия</a>
           </li>
           <li className="list-inline-item">
-            <a href="/#">FAQ</a>
+            <a href="http://fb79510o.bget.ru/faq">Вопросы и ответы</a>
           </li>
         </ul>
       </div>
