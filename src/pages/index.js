@@ -6,7 +6,7 @@ import Scroll from '../components/Scroll';
 import Footer from '../components/Footer';
 import Social from '../components/Social';
 
-import demo1 from '../assets/images/demo-screen-1.jpg';
+import demo1 from '../assets/images/social-1206603_640.png';
 import gplay from '../assets/images/google-play-badge.svg';
 import astore from '../assets/images/app-store-badge.svg';
 
