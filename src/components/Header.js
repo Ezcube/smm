@@ -74,11 +74,6 @@ export default class Header extends Component {
                 </Scroll>
               </li>
               <li className="nav-item">
-                <Scroll
-                  onClick={_ => this.toggleMenu(!openMenu)}
-                  type="id"
-                  element="features"
-                >
                   <a className="nav-link" href="http://fb79510o.bget.ru/auth/signup">
                     Зарегистрироваться
                   </a>
