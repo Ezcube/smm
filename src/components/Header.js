@@ -77,7 +77,6 @@ export default class Header extends Component {
                   <a className="nav-link" href="http://fb79510o.bget.ru/auth/signup">
                     Зарегистрироваться
                   </a>
-                </Scroll>
               </li>
             </ul>
           </div>
