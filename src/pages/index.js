@@ -20,12 +20,11 @@ const IndexPage = () => (
           <div className="col-lg-7 my-auto">
             <div className="header-content mx-auto">
               <h1 className="mb-5">
-                New Age is an gatsby starter for app landing page that will help
-                you beautifully showcase your new mobile app, or anything else!
+                Сервис с максимально низкими ценами на услуги SMM, попробуйте и убедитесь сами!
               </h1>
               <Scroll type="id" element="download">
-                <a href="#download" className="btn btn-outline btn-xl">
-                  Start Now for Free!
+                <a href="http://fb79510o.bget.ru/auth/signup" className="btn btn-outline btn-xl">
+                  Зарегистрироваться!
                 </a>
               </Scroll>
             </div>
@@ -46,7 +45,7 @@ const IndexPage = () => (
       </div>
     </header>
 
-    <section className="download bg-primary text-center" id="download">
+    /*<section className="download bg-primary text-center" id="download">
       <div className="container">
         <div className="row">
           <div className="col-md-8 mx-auto">
@@ -68,9 +67,9 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-    </section>
+    </section>*/
 
-    <section className="features" id="features">
+    /*<section className="features" id="features">
       <div className="container">
         <div className="section-heading text-center">
           <h2>Unlimited Features, Unlimited Fun</h2>
@@ -142,9 +141,9 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-    </section>
+    </section>*/
 
-    <section className="cta">
+    /*<section className="cta">
       <div className="cta-content">
         <div className="container">
           <h2>
@@ -160,14 +159,14 @@ const IndexPage = () => (
         </div>
       </div>
       <div className="overlay"></div>
-    </section>
+    </section>*/
 
     <section className="contact bg-primary" id="contact">
       <div className="container">
         <h2>
-          We
+          Мы
           <i className="fas fa-heart"></i>
-          new friends!
+          новых друзей!
         </h2>
         <Social />
       </div>
