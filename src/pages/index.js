@@ -20,7 +20,7 @@ const IndexPage = () => (
           <div className="col-lg-7 my-auto">
             <div className="header-content mx-auto">
               <h1 className="mb-5">
-                Сервис с максимально низкими ценами на услуги SMM, попробуйте и убедитесь сами!
+                Сервис с максимально низкими ценами на услуги продвижения, попробуйте и убедитесь сами!
               </h1>
               <Scroll type="id" element="download">
                 <a href="http://fb79510o.bget.ru/auth/signup" className="btn btn-outline btn-xl">
