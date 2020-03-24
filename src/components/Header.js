@@ -58,17 +58,42 @@ export default class Header extends Component {
           </button>
 
           <div
+            className={`collapse navbar-collapse ${openMenu ? 'show' : ''}`}
+            id="navbarResponsive"
           >
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
+                <Scroll
+                  onClick={_ => this.toggleMenu(!openMenu)}
+                  type="id"
+                  element="download"
+                >
                   <a className="nav-link" href="http://fb79510o.bget.ru/auth/login">
                     Войти
                   </a>
+                </Scroll>
               </li>
               <li className="nav-item">
+                <Scroll
+                  onClick={_ => this.toggleMenu(!openMenu)}
+                  type="id"
+                  element="features"
+                >
                   <a className="nav-link" href="http://fb79510o.bget.ru/auth/signup">
                     Зарегистрироваться
                   </a>
+                </Scroll>
+              </li>
+              <li className="nav-item">
+                <Scroll
+                  onClick={_ => this.toggleMenu(!openMenu)}
+                  type="id"
+                  element="contact"
+                >
+                  <a className="nav-link" href="#contact">
+                    Contact
+                  </a>
+                </Scroll>
               </li>
             </ul>
           </div>
