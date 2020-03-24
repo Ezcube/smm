@@ -53,7 +53,7 @@ export default class Header extends Component {
             aria-expanded={openMenu}
             aria-label="Toggle navigation"
           >
-            Menu
+            меню
             <i className="fas fa-bars"></i>
           </button>
 
@@ -81,17 +81,6 @@ export default class Header extends Component {
                 >
                   <a className="nav-link" href="http://fb79510o.bget.ru/auth/signup">
                     Зарегистрироваться
-                  </a>
-                </Scroll>
-              </li>
-              <li className="nav-item">
-                <Scroll
-                  onClick={_ => this.toggleMenu(!openMenu)}
-                  type="id"
-                  element="contact"
-                >
-                  <a className="nav-link" href="#contact">
-                    Contact
                   </a>
                 </Scroll>
               </li>
